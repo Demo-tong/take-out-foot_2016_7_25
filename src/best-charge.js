@@ -1,4 +1,5 @@
 function bestCharge(selectedItems) {
+<<<<<<< HEAD
   let allItems = loadAllItems();
   let promotions = loadPromotions();
 
@@ -14,6 +15,9 @@ function bestCharge(selectedItems) {
   let expectedString = connectString(subtotalItems, halfCutIds, bestPromotion);
 
   return expectedString/*TODO*/;
+=======
+  return /*TODO*/;
+>>>>>>> origin/master
 }
 
 function formatItems(selectedItems) {
@@ -61,6 +65,7 @@ function getHalfCutId(promotions) {
       return item.items;
     }
   }
+<<<<<<< HEAD
 }
 
 function getHalfCutItems(subtotalItems, halfCutIds){
@@ -122,4 +127,6 @@ function connectString(subtotalItems, halfCutIds, bestPromotion){
   let expectedString = "";
 
   return expectedString;
+=======
+>>>>>>> origin/master
 }

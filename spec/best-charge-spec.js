@@ -206,6 +206,7 @@ describe("getHalfCutId", function(){
     expect(getHalfCutId(promotions)).toEqual(expected);
   });
 });
+<<<<<<< HEAD
 
 describe("getHalfCutItems", function(){
   it("to get the half cut items", function(){
@@ -402,3 +403,5 @@ describe("getTheBestPromotion", function(){
     expect(getTheBestPromotion(halfCut, fullCut)).toEqual(bestPromotion);
   });
 });
+=======
+>>>>>>> origin/master
